@@ -85,35 +85,5 @@
     }
   ]
 }
-```
 
----
 
-## Ce que chaque champ nouveau apporte
-
-`total_elements` → le nombre total d'animaux sur cette page. Utilisé pour afficher **"X / 3 bien placés"**.
-
-`success_threshold` → combien d'animaux corrects pour déclencher la récompense AR. Ici `3` = tous doivent être bien placés. Tu peux mettre `2` pour déclencher même si 1 se trompe.
-
-`image_target` → la carte animal détectée par AR Foundation — **ce que ta binôme détecte probablement**.
-
-`anchor` → le label imprimé sur la page — **la position cible de référence**.
-
-`feedback.correct_color` → la couleur verte à appliquer quand c'est bien placé.
-`feedback.wrong_color` → la couleur rouge quand c'est mal placé.
-
----
-
-## La logique complète en runtime
-```
-AR Foundation détecte lion_card    → position A
-AR Foundation détecte label_lion   → position B
-                                        ↓
-Distance A ↔ B < 0.03m ?
-    OUI → lion = ✅ → colorier en #00FF00
-    NON → lion = ❌ → colorier en #FF0000
-                                        ↓
-Score = nombre de ✅ → afficher "2/3 bien placés"
-                                        ↓
-Score == success_threshold ?
-    OUI → InstantiateAsync("Lion_3D") + Play("Lion_Roar") 🎉
