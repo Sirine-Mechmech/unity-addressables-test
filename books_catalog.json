@@ -1,0 +1,88 @@
+{
+  "version": "1.0",
+  "books": [
+    {
+      "id": "animals_book",
+      "title": "Le Monde des Animaux",
+      "qr_code": "QR_ANIMALS_001",
+      "addressable_group": "AnimalsGroup",
+      "cover_image": "animals_cover",
+      "pages": [
+        {
+          "id": "page_001",
+          "marker": "marker_page_001",
+          "description": "Les animaux de la savane",
+          "activities": [
+            {
+              "type": "placement",
+              "total_elements": 3,
+              "success_threshold": 3,
+              "elements": [
+                {
+                  "id": "lion",
+                  "image_target": "lion_card",
+                  "anchor": "label_lion",
+                  "tolerance": 0.03,
+                  "feedback": {
+                    "correct_color": "#00FF00",
+                    "wrong_color": "#FF0000"
+                  },
+                  "on_correct": {
+                    "show_3d": "Lion_3D",
+                    "play_sound": "Lion_Roar",
+                    "show_label": "Lion"
+                  }
+                },
+                {
+                  "id": "elephant",
+                  "image_target": "elephant_card",
+                  "anchor": "label_elephant",
+                  "tolerance": 0.03,
+                  "feedback": {
+                    "correct_color": "#00FF00",
+                    "wrong_color": "#FF0000"
+                  },
+                  "on_correct": {
+                    "show_3d": "Elephant_3D",
+                    "play_sound": "Elephant_Trumpet",
+                    "show_label": "Éléphant"
+                  }
+                },
+                {
+                  "id": "zebra",
+                  "image_target": "zebra_card",
+                  "anchor": "label_zebra",
+                  "tolerance": 0.03,
+                  "feedback": {
+                    "correct_color": "#00FF00",
+                    "wrong_color": "#FF0000"
+                  },
+                  "on_correct": {
+                    "show_3d": "Zebra_3D",
+                    "play_sound": "Zebra_Sound",
+                    "show_label": "Zèbre"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "scan",
+              "elements": [
+                {
+                  "id": "parrot",
+                  "image_target": "parrot_image_target",
+                  "on_detect": {
+                    "show_3d": "Zebra_3D",
+                    "play_sound": "Parrot_Sound",
+                    "show_label": "Perroquet"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
