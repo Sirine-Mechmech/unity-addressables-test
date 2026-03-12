@@ -1,0 +1,119 @@
+{
+  "version": "1.0",
+  "books": [
+    {
+      "id": "animals_book",
+      "title": "Le Monde des Animaux",
+      "qr_code": "QR_ANIMALS_001",
+      "addressable_group": "AnimalsGroup",
+      "cover_image": "animals_cover",
+      "pages": [
+        {
+          "id": "page_001",
+          "marker": "marker_page_001",
+          "description": "Les animaux de la savane",
+          "activities": [
+            {
+              "type": "placement",
+              "total_elements": 3,
+              "success_threshold": 3,
+              "elements": [
+                {
+                  "id": "lion",
+                  "image_target": "lion_card",
+                  "anchor": "label_lion",
+                  "tolerance": 0.03,
+                  "feedback": {
+                    "correct_color": "#00FF00",
+                    "wrong_color": "#FF0000"
+                  },
+                  "on_correct": {
+                    "show_3d": "Lion_3D",
+                    "play_sound": "Lion_Roar",
+                    "show_label": "Lion"
+                  }
+                },
+                {
+                  "id": "elephant",
+                  "image_target": "elephant_card",
+                  "anchor": "label_elephant",
+                  "tolerance": 0.03,
+                  "feedback": {
+                    "correct_color": "#00FF00",
+                    "wrong_color": "#FF0000"
+                  },
+                  "on_correct": {
+                    "show_3d": "Elephant_3D",
+                    "play_sound": "Elephant_Trumpet",
+                    "show_label": "Éléphant"
+                  }
+                },
+                {
+                  "id": "zebra",
+                  "image_target": "zebra_card",
+                  "anchor": "label_zebra",
+                  "tolerance": 0.03,
+                  "feedback": {
+                    "correct_color": "#00FF00",
+                    "wrong_color": "#FF0000"
+                  },
+                  "on_correct": {
+                    "show_3d": "Zebra_3D",
+                    "play_sound": "Zebra_Sound",
+                    "show_label": "Zèbre"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "scan",
+              "elements": [
+                {
+                  "id": "parrot",
+                  "image_target": "parrot_image_target",
+                  "on_detect": {
+                    "show_3d": "Parrot_3D",
+                    "play_sound": "Parrot_Sound",
+                    "show_label": "Perroquet"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## Ce que chaque champ nouveau apporte
+
+`total_elements` → le nombre total d'animaux sur cette page. Utilisé pour afficher **"X / 3 bien placés"**.
+
+`success_threshold` → combien d'animaux corrects pour déclencher la récompense AR. Ici `3` = tous doivent être bien placés. Tu peux mettre `2` pour déclencher même si 1 se trompe.
+
+`image_target` → la carte animal détectée par AR Foundation — **ce que ta binôme détecte probablement**.
+
+`anchor` → le label imprimé sur la page — **la position cible de référence**.
+
+`feedback.correct_color` → la couleur verte à appliquer quand c'est bien placé.
+`feedback.wrong_color` → la couleur rouge quand c'est mal placé.
+
+---
+
+## La logique complète en runtime
+```
+AR Foundation détecte lion_card    → position A
+AR Foundation détecte label_lion   → position B
+                                        ↓
+Distance A ↔ B < 0.03m ?
+    OUI → lion = ✅ → colorier en #00FF00
+    NON → lion = ❌ → colorier en #FF0000
+                                        ↓
+Score = nombre de ✅ → afficher "2/3 bien placés"
+                                        ↓
+Score == success_threshold ?
+    OUI → InstantiateAsync("Lion_3D") + Play("Lion_Roar") 🎉
