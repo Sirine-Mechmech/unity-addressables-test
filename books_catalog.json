@@ -72,7 +72,7 @@
                   "id": "parrot",
                   "image_target": "parrot_image_target",
                   "on_detect": {
-                    "show_3d": "Parrot_3D",
+                    "show_3d": "Zebra_3D",
                     "play_sound": "Parrot_Sound",
                     "show_label": "Perroquet"
                   }
@@ -85,3 +85,4 @@
     }
   ]
 }
+
