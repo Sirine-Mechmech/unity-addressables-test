@@ -1,0 +1,75 @@
+{
+  "id": "book_001",
+  "title": "Le Monde des Animaux",
+  "pages": [
+    {
+      "id": "page_001",
+      "design": "Design_1",
+      "description": "Les animaux de la savane",
+      "elements": [
+        {
+          "id": "lion",
+          "image_target": "lion_card",
+          "anchor": "label_lion",
+          "tolerance": 0.03,
+          "on_correct": {
+            "show_3d": "Lion_3D",
+            "play_sound": "Lion_Roar",
+            "show_label": "Lion"
+          }
+        },
+        {
+          "id": "elephant",
+          "image_target": "elephant_card",
+          "anchor": "label_elephant",
+          "tolerance": 0.03,
+          "on_correct": {
+            "show_3d": "Elephant_3D",
+            "play_sound": "Elephant_Trumpet",
+            "show_label": "Éléphant"
+          }
+        },
+        {
+          "id": "zebra",
+          "image_target": "zebra_card",
+          "anchor": "label_zebra",
+          "tolerance": 0.03,
+          "on_correct": {
+            "show_3d": "Zebra_3D",
+            "play_sound": "Zebra_Sound",
+            "show_label": "Zèbre"
+          }
+        }
+      ]
+    },
+    {
+      "id": "page_002",
+      "design": "Design_1",
+      "description": "Les animaux de la jungle",
+      "elements": [
+        {
+          "id": "tiger",
+          "image_target": "tiger_card",
+          "anchor": "label_tiger",
+          "tolerance": 0.03,
+          "on_correct": {
+            "show_3d": "Tiger_3D",
+            "play_sound": "Tiger_Roar",
+            "show_label": "Tigre"
+          }
+        },
+        {
+          "id": "monkey",
+          "image_target": "monkey_card",
+          "anchor": "label_monkey",
+          "tolerance": 0.03,
+          "on_correct": {
+            "show_3d": "Monkey_3D",
+            "play_sound": "Monkey_Sound",
+            "show_label": "Singe"
+          }
+        }
+      ]
+    }
+  ]
+}
