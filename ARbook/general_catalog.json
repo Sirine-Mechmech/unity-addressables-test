@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "books": [
+    {
+      "id": "book_001",
+      "title": "Le Monde des Animaux",
+      "description": "Découvrez les animaux en réalité augmentée",
+      "addressable_group": "Book1",
+      "total_pages": 2,
+      "json_file": "book_001.json"
+    }
+  ]
+}
