@@ -8,7 +8,7 @@
       "description": "Les animaux de la savane",
       "elements": [
         {
-          "id": "lion",
+          "id": "lion Africain",
           "image_target": "lion_card",
           "anchor": "label_lion",
           "tolerance": 0.03,
