@@ -3,71 +3,52 @@
   "title": "Le Monde des Animaux",
   "pages": [
     {
-      "id": "page_001",
-      "design": "Design_1",
-      "description": "Les animaux de la savane",
-      "elements": [
+      "id": "page1",
+      "nom": "Les Animaux de la Forêt",
+      "feuille": "F1",
+      "items": [
         {
-          "id": "lion",
-          "image_target": "lion_card",
-          "anchor": "label_lion",
-          "tolerance": 0.03,
-          "on_correct": {
-            "show_3d": "Lion_3D",
-            "play_sound": "Lion_Roar",
-            "show_label": "Lion"
-          }
+          "nom": "fox",
+          "x": -0.052,
+          "y": 0,
+          "z": 0.107
         },
         {
-          "id": "elephant",
-          "image_target": "elephant_card",
-          "anchor": "label_elephant",
-          "tolerance": 0.03,
-          "on_correct": {
-            "show_3d": "Elephant_3D",
-            "play_sound": "Elephant_Trumpet",
-            "show_label": "Éléphant"
-          }
+          "nom": "hedgehog",
+          "x": 0.052,
+          "y": 0,
+          "z": 0.0
         },
         {
-          "id": "zebra",
-          "image_target": "zebra_card",
-          "anchor": "label_zebra",
-          "tolerance": 0.03,
-          "on_correct": {
-            "show_3d": "Zebra_3D",
-            "play_sound": "Zebra_Sound",
-            "show_label": "Zèbre"
-          }
+          "nom": "squirrel",
+          "x": -0.052,
+          "y": 0,
+          "z": -0.100
         }
       ]
     },
     {
-      "id": "page_002",
-      "design": "Design_1",
-      "description": "Les animaux de la jungle",
-      "elements": [
+      "id": "page2",
+      "nom": "Les Ours",
+      "feuille": "F2",
+      "items": [
         {
-          "id": "tiger",
-          "image_target": "tiger_card",
-          "anchor": "label_tiger",
-          "tolerance": 0.03,
-          "on_correct": {
-            "show_3d": "Tiger_3D",
-            "play_sound": "Tiger_Roar",
-            "show_label": "Tigre"
-          }
+          "nom": "panda",
+          "x": -0.052,
+          "y": 0,
+          "z": 0.107
         },
         {
-          "id": "monkey",
-          "image_target": "monkey_card",
-          "anchor": "label_monkey",
-          "tolerance": 0.03,
-          "on_correct": {
-            "show_3d": "Monkey_3D",
-            "play_sound": "Monkey_Sound",
-            "show_label": "Singe"
-          }
+          "nom": "blackbear",
+          "x": 0.052,
+          "y": 0,
+          "z": 0.0
+        },
+        {
+          "nom": "whitebear",
+          "x": -0.052,
+          "y": 0,
+          "z": -0.100
         }
       ]
     }
