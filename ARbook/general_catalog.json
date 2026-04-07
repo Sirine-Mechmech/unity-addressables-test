@@ -7,7 +7,7 @@
       "description": "Découvrez les animaux en réalité augmentée",
       "addressable_group": "Book1",
       "total_pages": 2,
-      "json_file": "book_001.json"
+      "jsonFile": "book_001.json"
     }
   ]
 }
