@@ -7,24 +7,9 @@
       "nom": "Les Animaux de la Forêt",
       "feuille": "F1",
       "items": [
-        {
-          "nom": "fox",
-          "x": -0.052,
-          "y": 0,
-          "z": 0.107
-        },
-        {
-          "nom": "hedgehog",
-          "x": 0.052,
-          "y": 0,
-          "z": 0.0
-        },
-        {
-          "nom": "squirrel",
-          "x": -0.052,
-          "y": 0,
-          "z": -0.100
-        }
+        { "nom": "fox", "x": -0.052, "y": 0, "z": 0.107 },
+        { "nom": "hedgehog", "x": 0.052, "y": 0, "z": 0.0 },
+        { "nom": "squirrel", "x": -0.052, "y": 0, "z": -0.100 }
       ]
     },
     {
@@ -32,24 +17,9 @@
       "nom": "Les Ours",
       "feuille": "F2",
       "items": [
-        {
-          "nom": "panda",
-          "x": -0.052,
-          "y": 0,
-          "z": 0.107
-        },
-        {
-          "nom": "blackbear",
-          "x": 0.052,
-          "y": 0,
-          "z": 0.0
-        },
-        {
-          "nom": "whitebear",
-          "x": -0.052,
-          "y": 0,
-          "z": -0.100
-        }
+        { "nom": "panda", "x": -0.052, "y": 0, "z": 0.107 },
+        { "nom": "blackbear", "x": 0.052, "y": 0, "z": 0.0 },
+        { "nom": "whitebear", "x": -0.052, "y": 0, "z": -0.100 }
       ]
     }
   ]
