@@ -1,10 +1,11 @@
 {
   "id": "book_001",
-  "title": "Le Monde des Animaux",
+  "title": "First Book",
   "pages": [
     {
       "id": "page1",
       "nom": "Les Animaux de la Forêt",
+      "theme": "Les Animaux",
       "feuille": "F1",
       "items": [
         { "nom": "fox", "x": -0.052, "y": 0, "z": 0.107 },
@@ -15,6 +16,7 @@
     {
       "id": "page2",
       "nom": "Les Ours",
+      "theme": "Les Animaux",
       "feuille": "F2",
       "items": [
         { "nom": "panda", "x": -0.052, "y": 0, "z": 0.107 },
