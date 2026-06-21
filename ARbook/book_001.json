@@ -4,8 +4,8 @@
   "pages": [
     {
       "id": "page1",
-      "nom": "Les Animaux de la Forêt",
-      "themeId": "Les Animaux",
+      "nom": "fierce hunters",
+      "themeId": "wild world",
       "feuille": "F1",
       "items": [
         { "nom": "fox", "x": 0.03, "y": 0, "z": 0.0542 },
@@ -15,13 +15,86 @@
     },
     {
       "id": "page2",
-      "nom": "Les Ours",
-      "themeId": "Les Animaux",
+      "nom": "big and strong",
+      "themeId": "wild world",
       "feuille": "F2",
       "items": [
-        { "nom": "panda", "x": -0.052, "y": 0, "z": 0.107 },
-        { "nom": "blackbear", "x": 0.052, "y": 0, "z": 0.0 },
-        { "nom": "whitebear", "x": -0.0653, "y": 0, "z": -0.077 }
+        { "nom": "bear", "x": 0.03, "y": 0, "z": 0.0542 },
+        { "nom": "elephant", "x": -0.056, "y": 0, "z": -0.063 },
+        { "nom": "gorilla", "x": 0.0643, "y": 0, "z": -0.081 }
+      ]
+    },
+    {
+      "id": "page3",
+      "nom": "exotic and colorful",
+      "themeId": "wild world",
+      "feuille": "F3",
+      "items": [
+        { "nom": "giraffe", "x": 0.03, "y": 0, "z": 0.0542 },
+        { "nom": "zebra", "x": -0.056, "y": 0, "z": -0.063 },
+        { "nom": "panda", "x": 0.0643, "y": 0, "z": -0.081 }
+      ]
+    },
+    {
+      "id": "page4",
+      "nom": "my pets",
+      "themeId": "around us",
+      "feuille": "F4",
+      "items": [
+        { "nom": "cat", "x": 0.03, "y": 0, "z": 0.0542 },
+        { "nom": "dog", "x": -0.056, "y": 0, "z": -0.063 }
+      ]
+    },
+    {
+      "id": "page5",
+      "nom": "fluffy friends",
+      "themeId": "around us",
+      "feuille": "F5",
+      "items": [
+        { "nom": "rabbit", "x": 0.03, "y": 0, "z": 0.0542 },
+        { "nom": "sheep", "x": -0.056, "y": 0, "z": -0.063 },
+        { "nom": "goat", "x": 0.0643, "y": 0, "z": -0.081 }
+      ]
+    },
+    {
+      "id": "page6",
+      "nom": "farm life",
+      "themeId": "around us",
+      "feuille": "F6",
+      "items": [
+        { "nom": "cow", "x": 0.03, "y": 0, "z": 0.0542 },
+        { "nom": "horse", "x": -0.056, "y": 0, "z": -0.063 }
+      ]
+    },
+    {
+      "id": "page7",
+      "nom": "deep ocean",
+      "themeId": "blue planet",
+      "feuille": "F7",
+      "items": [
+        { "nom": "dolphin", "x": 0.03, "y": 0, "z": 0.0542 },
+        { "nom": "shark", "x": -0.056, "y": 0, "z": -0.063 }
+      ]
+    },
+    {
+      "id": "page8",
+      "nom": "cold and icy",
+      "themeId": "blue planet",
+      "feuille": "F8",
+      "items": [
+        { "nom": "seal", "x": 0.03, "y": 0, "z": 0.0542 },
+        { "nom": "penguin", "x": -0.056, "y": 0, "z": -0.063 }
+      ]
+    },
+    {
+      "id": "page9",
+      "nom": "sky and shore",
+      "themeId": "blue planet",
+      "feuille": "F9",
+      "items": [
+        { "nom": "eagle", "x": 0.03, "y": 0, "z": 0.0542 },
+        { "nom": "flamingo", "x": -0.056, "y": 0, "z": -0.063 },
+        { "nom": "parrot", "x": 0.0643, "y": 0, "z": -0.081 }
       ]
     }
   ]
