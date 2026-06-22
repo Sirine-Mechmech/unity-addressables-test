@@ -4,94 +4,94 @@
   "pages": [
     {
       "id": "page1",
-      "nom": "fierce hunters",
+      "nom": "chasseurs féroces",
       "themeId": "wild world",
       "feuille": "F1",
       "items": [
-        { "nom": "fox", "x": 0.03, "y": 0, "z": 0.0542 },
-        { "nom": "tiger", "x": -0.056, "y": 0, "z": -0.063 },
+        { "nom": "renard", "x": 0.03, "y": 0, "z": 0.0542 },
+        { "nom": "tigre", "x": -0.056, "y": 0, "z": -0.063 },
         { "nom": "lion", "x": 0.0643, "y": 0, "z": -0.081 }
       ]
     },
     {
       "id": "page2",
-      "nom": "big and strong",
+      "nom": "grands et forts",
       "themeId": "wild world",
       "feuille": "F2",
       "items": [
-        { "nom": "elephant", "x": -0.056, "y": 0, "z": -0.063 },
-        { "nom": "gorilla", "x": 0.0643, "y": 0, "z": -0.081 }
+        { "nom": "éléphant", "x": -0.056, "y": 0, "z": -0.063 },
+        { "nom": "gorille", "x": 0.0643, "y": 0, "z": -0.081 }
       ]
     },
     {
       "id": "page3",
-      "nom": "exotic and colorful",
+      "nom": "exotiques et colorés",
       "themeId": "wild world",
       "feuille": "F3",
       "items": [
-        { "nom": "giraffe", "x": 0.03, "y": 0, "z": 0.0542 },
-        { "nom": "zebra", "x": -0.056, "y": 0, "z": -0.063 }  
+        { "nom": "girafe", "x": 0.03, "y": 0, "z": 0.0542 },
+        { "nom": "zèbre", "x": -0.056, "y": 0, "z": -0.063 }
       ]
     },
     {
       "id": "page4",
-      "nom": "my pets",
+      "nom": "mes animaux de compagnie",
       "themeId": "around us",
       "feuille": "F4",
       "items": [
-        { "nom": "cat", "x": 0.03, "y": 0, "z": 0.0542 },
-        { "nom": "dog", "x": -0.056, "y": 0, "z": -0.063 }
+        { "nom": "chat", "x": 0.03, "y": 0, "z": 0.0542 },
+        { "nom": "chien", "x": -0.056, "y": 0, "z": -0.063 }
       ]
     },
     {
       "id": "page5",
-      "nom": "fluffy friends",
+      "nom": "amis tout doux",
       "themeId": "around us",
       "feuille": "F5",
       "items": [
-        { "nom": "sheep", "x": -0.056, "y": 0, "z": -0.063 },
-        { "nom": "goat", "x": 0.0643, "y": 0, "z": -0.081 }
+        { "nom": "mouton", "x": -0.056, "y": 0, "z": -0.063 },
+        { "nom": "chèvre", "x": 0.0643, "y": 0, "z": -0.081 }
       ]
     },
     {
       "id": "page6",
-      "nom": "farm life",
+      "nom": "vie à la ferme",
       "themeId": "around us",
       "feuille": "F6",
       "items": [
-        { "nom": "cow", "x": 0.03, "y": 0, "z": 0.0542 },
-        { "nom": "horse", "x": -0.056, "y": 0, "z": -0.063 }
+        { "nom": "vache", "x": 0.03, "y": 0, "z": 0.0542 },
+        { "nom": "cheval", "x": -0.056, "y": 0, "z": -0.063 }
       ]
     },
     {
       "id": "page7",
-      "nom": "deep ocean",
+      "nom": "fond de l'océan",
       "themeId": "blue planet",
       "feuille": "F7",
       "items": [
-        { "nom": "dolphin", "x": 0.03, "y": 0, "z": 0.0542 },
-        { "nom": "shark", "x": -0.056, "y": 0, "z": -0.063 }
+        { "nom": "dauphin", "x": 0.03, "y": 0, "z": 0.0542 },
+        { "nom": "requin", "x": -0.056, "y": 0, "z": -0.063 }
       ]
     },
     {
       "id": "page8",
-      "nom": "cold and icy",
+      "nom": "froid et glacé",
       "themeId": "blue planet",
       "feuille": "F8",
       "items": [
-        { "nom": "seal", "x": 0.03, "y": 0, "z": 0.0542 },
-        { "nom": "penguin", "x": -0.056, "y": 0, "z": -0.063 }
+        { "nom": "phoque", "x": 0.03, "y": 0, "z": 0.0542 },
+        { "nom": "manchot", "x": -0.056, "y": 0, "z": -0.063 }
       ]
     },
     {
       "id": "page9",
-      "nom": "sky and shore",
+      "nom": "ciel et rivage",
       "themeId": "blue planet",
       "feuille": "F9",
       "items": [
-        { "nom": "eagle", "x": 0.03, "y": 0, "z": 0.0542 },
-        { "nom": "flamingo", "x": -0.056, "y": 0, "z": -0.063 },
-        { "nom": "parrot", "x": 0.0643, "y": 0, "z": -0.081 }
+        { "nom": "aigle", "x": 0.03, "y": 0, "z": 0.0542 },
+        { "nom": "flamant", "x": -0.056, "y": 0, "z": -0.063 },
+        { "nom": "perroquet", "x": 0.0643, "y": 0, "z": -0.081 }
       ]
     }
   ]
