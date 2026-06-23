@@ -8,9 +8,9 @@
       "themeId": "wild world",
       "feuille": "F1",
       "items": [
-        { "nom": "renard", "x": 0.06, "y": 0, "z": 0.1 },
-        { "nom": "tigre", "x": -0.065, "y": 0, "z":0 },
-        { "nom": "lion", "x": 0.0643, "y": 0, "z": -0.081 }
+        { "nom": "renard", "x": 0.055, "y": 0, "z": 0.085 },
+        { "nom": "tigre", "x": -0.05, "y": 0, "z":0 },
+        { "nom": "lion", "x": 0.065, "y": 0, "z": -0.085 }
       ]
     },
     {
@@ -89,9 +89,9 @@
       "themeId": "blue planet",
       "feuille": "F10",
       "items": [
-        { "nom": "fox", "x": 0.03, "y": 0, "z": 0.0542 },
-        { "nom": "hedgehog", "x": -0.056, "y": 0, "z": -0.063 },
-        { "nom": "squirrel", "x": 0.0643, "y": 0, "z": -0.081 }
+        { "nom": "fox", "x": 0.055, "y": 0, "z": 0.1 },
+        { "nom": "hedgehog", "x": 0.056, "y": 0, "z": 0 },
+        { "nom": "squirrel", "x": -0.055, "y": 0, "z": -0.085 }
       ]
     },
     {
