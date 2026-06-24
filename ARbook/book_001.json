@@ -19,8 +19,9 @@
       "themeId": "wild world",
       "feuille": "F2",
       "items": [
-        { "nom": "éléphant", "x": 0.065, "y": 0, "z": -0.085 },
-        { "nom": "gorille", "x": 0.055, "y": 0, "z": 0.085 }
+        { "nom": "gorille", "x": 0.055, "y": 0, "z": 0.085 },
+        { "nom": "éléphant", "x": 0.065, "y": 0, "z": -0.085 }
+        
       ]
     },
     {
@@ -29,8 +30,8 @@
       "themeId": "wild world",
       "feuille": "F3",
       "items": [
-        { "nom": "girafe", "x": 0.065, "y": 0, "z": -0.085 },
-        { "nom": "zèbre", "x": -0.05, "y": 0, "z":0 }
+        { "nom": "zèbre", "x": -0.05, "y": 0, "z":0 },
+        { "nom": "girafe", "x": 0.065, "y": 0, "z": -0.085 }
       ]
     },
     {
