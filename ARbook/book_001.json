@@ -61,7 +61,7 @@
       "feuille": "F6",
       "items": [
         { "nom": "vache", "x": 0.065, "y": 0, "z": -0.085 },
-        { "nom": "cheval", "mouton", "x": -0.05, "y": 0, "z":0 }
+        { "nom": "cheval", "x": -0.05, "y": 0, "z":0 }
       ]
     },
     {
