@@ -60,8 +60,8 @@
       "themeId": "around us",
       "feuille": "F6",
       "items": [
-        { "nom": "vache", "x": 0.03, "y": 0, "z": 0.0542 },
-        { "nom": "cheval", "x": -0.056, "y": 0, "z": -0.063 }
+        { "nom": "vache", "x": 0.065, "y": 0, "z": -0.085 },
+        { "nom": "cheval", "mouton", "x": -0.05, "y": 0, "z":0 }
       ]
     },
     {
@@ -70,8 +70,8 @@
       "themeId": "blue planet",
       "feuille": "F7",
       "items": [
-        { "nom": "dauphin", "x": 0.03, "y": 0, "z": 0.0542 },
-        { "nom": "requin", "x": -0.056, "y": 0, "z": -0.063 }
+        { "nom": "dauphin", "x": -0.05, "y": 0, "z":0 },
+        { "nom": "requin", "x": 0.055, "y": 0, "z": 0.085 }
       ]
     },
     {
@@ -80,8 +80,8 @@
       "themeId": "blue planet",
       "feuille": "F8",
       "items": [
-        { "nom": "phoque", "x": 0.03, "y": 0, "z": 0.0542 },
-        { "nom": "manchot", "x": -0.056, "y": 0, "z": -0.063 }
+        { "nom": "phoque", "x": -0.05, "y": 0, "z":0 },
+        { "nom": "manchot", "x": 0.065, "y": 0, "z": -0.085 }
       ]
     },
     {
@@ -101,9 +101,9 @@
       "themeId": "blue planet",
       "feuille": "F9",
       "items": [
-        { "nom": "aigle", "x": 0.03, "y": 0, "z": 0.0542 },
-        { "nom": "flamant", "x": -0.056, "y": 0, "z": -0.063 },
-        { "nom": "perroquet", "x": 0.0643, "y": 0, "z": -0.081 }
+        { "nom": "aigle", "x": 0.055, "y": 0, "z": 0.085 },
+        { "nom": "flamant", "x": -0.05, "y": 0, "z":0 },
+        { "nom": "perroquet", "x": 0.065, "y": 0, "z": -0.085 }
       ]
     }
   ]
