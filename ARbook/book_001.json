@@ -40,8 +40,8 @@
       "themeId": "around us",
       "feuille": "F4",
       "items": [
-        { "nom": "chat", "x": 0.03, "y": 0, "z": 0.0542 },
-        { "nom": "chien", "x": -0.056, "y": 0, "z": -0.063 }
+        { "nom": "chat", "x": -0.05, "y": 0, "z":0 },
+        { "nom": "chien", "x": 0.065, "y": 0, "z": -0.085 }
       ]
     },
     {
@@ -50,8 +50,8 @@
       "themeId": "around us",
       "feuille": "F5",
       "items": [
-        { "nom": "mouton", "x": -0.056, "y": 0, "z": -0.063 },
-        { "nom": "chèvre", "x": 0.0643, "y": 0, "z": -0.081 }
+        { "nom": "mouton", "x": -0.05, "y": 0, "z":0 },
+        { "nom": "chèvre", "x": 0.065, "y": 0, "z": -0.085 }
       ]
     },
     {
